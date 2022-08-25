@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+/*Css code*/
+main{
+width: 700px;
+height: 700px;
+background-color: rgb(220, 184, 254);
+border: solid 2px black;
+margin: 5% auto;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+/*Container*/
+.container{
+    width: 500px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+
+}
+/*face*/
+.face-container{
+    width: 500px;
+height: 500px;
+background-color: rgb(220, 184, 254);
+}
+
+.face-wrapper{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(245, 215, 207);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.limbs{
+    width: 350px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+/*eyes*/
+.eyes{
+    width: 300px;
+    height: 90px;
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-eye,.right-eye{
+    width: 80px;
+    height: 80px;
+    border: 1px solid black;
+    border-radius: 100%;
+    box-shadow: 0px -6px 0px 0px rgba(0,0,0,0.37);
+    display: flex;
+    align-items: center;
+
+}
+
+.pupil{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 100%;
+}
+/*nose*/
+.nose-wrapper{
+    width: 130px;
+    height: 130px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nose{
+    width: 100px;
+    height: 120px;
+    clip-path: polygon(51% 14%, 10% 75%, 25% 90%, 43% 95%, 60% 95%, 75% 91%, 87% 79%, 80% 67%, 66% 40%);
+    background-color: rgb(172, 172, 172);
+}
+/*mouth*/
+.mouth-wrapper{
+    width: 250px;
+    height: 70px;
+    clip-path: polygon(81% 75%, 70% 77%, 51% 80%, 37% 77%, 21% 70%, 0% 56%, 4% 80%, 11% 91%, 42% 92%, 58% 92%, 75% 91%, 92% 88%, 97% 64%, 100% 55%);
+    background-color:  rgb(172, 172, 172);
+}
+/*bowtie*/
+.bowtie-container{
+    width: 190px;
+    height: 50px;
+    border: 1px solid red;
+    
+    background-color: rgb(228, 210, 210);
+}
+
+
+.shape-rectangle{
+    width: 150px;
+    height: 75px;
+    margin: 0px 10px 0px 10px;
+    clip-path: polygon(50% 0%, 100% 30%, 50% 60%, 0 30%);
+    background-color: red;
+
+}
+
