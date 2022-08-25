@@ -36,10 +36,12 @@ background-color: rgb(220, 184, 254);
     width: 500px;
     height: 500px;
     background-color: rgb(245, 215, 207);
+    border: 1px solid black;
     border-radius: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .limbs{
